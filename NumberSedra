@@ -1,0 +1,20 @@
+namespace tirgol
+{
+    class NumberSedra
+    {
+        static void Main()
+        {
+            int element;
+
+            Console.Write("Enter first element: ");
+            element = int.Parse(Console.ReadLine());
+
+            
+            element = element * 2;
+            Console.WriteLine("the second element is: {0} ", element);
+            element = element * 3;
+            Console.WriteLine("the third element is: {0} ", element);
+
+        }
+    }
+}
