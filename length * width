@@ -1,0 +1,21 @@
+  namespace tirgol
+{
+    class Program
+    {
+        static void Main()
+        {
+            int length, width, area, perimeter;
+
+            Console.Write("Enter length: ");
+            length = int.Parse(Console.ReadLine());
+            Console.Write("Enter width: ");
+            width = int.Parse(Console.ReadLine());
+
+            area = length*width;
+            perimeter = 2 * (length * width);
+
+            Console.WriteLine("the area is :{0} ", area);
+            Console.WriteLine("the perimeter is :{0}", perimeter);
+        }
+    }
+}
